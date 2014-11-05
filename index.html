@@ -33,6 +33,14 @@
 </head>
 
 <body id="page-top" class="index">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -90,6 +98,7 @@
                 <!-- <div class="col-lg-4">
                     <p>I am currently seeking for 2015 Summer Internship!</p>
                 </div> -->
+                            <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
                             <div class="col-lg-8 col-lg-offset-2 text-center">
                                 <a href="Andy_Li_Resume.pdf" class="btn btn-lg btn-outline">
                                     <i class="fa fa-download"></i> My Resume
